@@ -7,6 +7,11 @@ Created a tool that predicts churn rates to help businesses make savings and per
 
 **Packages:** `pandas, numpy, matplotlib, seaborn, sklearn, tensorflow, shap, imblearn`
 
+**SMOTE Github:** https://github.com/codebasics/deep-learning-keras-tf-tutorial/blob/master/14_imbalanced/handling_imbalanced_data.ipynb
+
+**SHAP Article:** https://towardsdatascience.com/churn-prediction-using-neural-networks-and-ml-models-c817aadb7057
+
+
 ## Data Cleaning
 After loading the data, I needed to clean it up so that it was usable for our model. I made the following changes:
 * removed redundant features,
