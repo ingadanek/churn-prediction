@@ -25,7 +25,7 @@ for opening an account. Therefore retired people, having more time and willing t
 ## Model Building
 First, I performed nominal encoding - transformed the categorical variables into dummy variables. I then scaled numerical features for better performance using MinMaxScaler. After that I balanced the data using SMOTE. I also split the data into train and test subsets with a test size of 20%.
 
-I built a ANN model using relu activation function for the first 2 layers, and softmax for the last one.
+I built an ANN model using Relu activation function for the first 2 layers, and Softmax for the last one.
 
 ## Model performance
-On the train and test subsets I managed to achieve accuracy of nearly 85% and around 82% respectively. F1-score (2*(precision*recall)/(precision+recall)) for the 0 class (no churn) equals 0.83, and for the 1 class (churn) 0.81. Using shap I realized that 'age' is the most important feature. My advice to businesses would be (e.g.) to offer to the 50-60  age group customers discounts to prevent them from leaving the business.
+On the train and test subsets I managed to achieve accuracy of nearly 85% and around 82% respectively. F1-score (2*(precision*recall)/(precision+recall)) for the 0 class (no churn) equaled 0.83, and for the 1 class (churn) 0.81. Using shap I realized that 'age' is the most important feature. My advice to businesses would be (e.g.) to offer to the 50-60  age group customers discounts to prevent them from leaving the business.
